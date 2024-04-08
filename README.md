@@ -47,11 +47,13 @@ MySQL requires `ENGINE=MEMORY` table for creating a hash index. Failed to do so 
 ```
 innodb_flush_log_at_trx_commit = 0
 ```
+![Value = 0](https://github.com/ZadokhinDima/sql_indices_test/blob/main/mode=0.png?raw=true)
 
 ```
 innodb_flush_log_at_trx_commit = 1
 ```
-
+![Value = 1](https://github.com/ZadokhinDima/sql_indices_test/blob/main/mode=1.png?raw=true)
 ```
 innodb_flush_log_at_trx_commit = 2
 ```
+![Value = 2](https://github.com/ZadokhinDima/sql_indices_test/blob/main/mode=2.png?raw=true)
